@@ -36,7 +36,7 @@ apache/
 ```
 
 - Important Helm Commands
-
+```
 helm create [CHART]: Scaffold a new Helm chart.
 helm package [CHART]: Package the chart into a chart archive.
 helm install [NAME] [CHART]: Install a Helm chart.
@@ -44,7 +44,7 @@ helm upgrade [NAME] [CHART]: Upgrade an installed Helm chart.
 helm uninstall [NAME]: Uninstall an installed Helm chart.
 helm list: List all installed Helm charts.
 helm rollback [NAME] [REVISION]: Roll back a release to a specific revision.
-
+```
 ## Example of Apache
 
 Install the Helm chart:
@@ -138,4 +138,5 @@ Inspect pod logs:
 ```bash
 
 kubectl logs <apache-pod-name> -n apache-namespace
+
 ```
